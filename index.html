@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Kevin CHABOUD</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -149,13 +149,13 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/synthese-image01.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Synthèse d'image : Terrain cubique</h3>
                         <p>
-                            En OpenGL, génération d'un terrain à la "Minecraft" à partir d'une heightmap. Différents matériaux selon la position des cubiques. MultiDraw et frustum culling pour les performances. Gestion de la lumière selon le modèle Blinn-Phong.
+                            En OpenGL, génération d'un terrain à la "Minecraft" à partir d'une heightmap. Différents matériaux selon la position, l'orientation, la pente. DrawInstanced et frustum culling pour les performances. Gestion de la lumière selon le modèle Blinn-Phong. ShadowMap réalisée en utilisant le framebuffer d'OpenGL.
                         </p>
                     </div>
                     <!-- End .project-info -->
@@ -164,7 +164,7 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/decapite-logo.png" width="400"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -174,6 +174,29 @@
                             Une horde de zombie attaque le joueur. Utilisez les dés à bon escient... ils peuvent aussi bien donner des bonus que des malus !
                         </p>
                         <a href="https://daratrix.itch.io/decapite">Lien vers le projet</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/controleur2D.jpg" width="400"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Controleur 2D pour Unity3D</h3>
+                        <p>
+                            Création d'un controleur de personnage en 2D ayant pour but de s'adapter au terrain. Sans utiliser de Rigibody, avec des Raycast2D principalement.
+                        </p>
+                        <ul>
+                            <li> Gestion des collisions </li>
+                            <li> Possibilité de monter et descendre les pentes </li>
+                            <li> Glissade pour les pentes trop abruptes </li>
+                            <li> Déplacements et sauts paramétrables </li>
+                            <li> Animations en fonction de l'état du personnage </li>
+                            <li> Plateformes mouvantes (WIP) </li>
+                        </ul>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -206,12 +229,8 @@
             <li>Javascript</li>
             <li>PHP</li>
             <li>SQL / PLSQL</li>
-        </ul>
-        <ul>
             <li>Node.js</li>
             <li>Bootstrap</li>
-            <li>PHP</li>
-            <li>SQL / PLSQL</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -219,7 +238,7 @@
     <div id="contact">
         <h2>Contact</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/kevin.chaboud@hotmail.fr">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Votre email" required>
                 <textarea name="message" placeholder="Votre message" required></textarea>
